@@ -15,7 +15,7 @@
 }
 
 html {
-    font-size: 93.75%; /* 15px - Padrão (100%) = 16px*/
+    font-size: 93.75%;
 }
 
 body {
@@ -80,7 +80,7 @@ button:hover {
 }
 
 .button.new {
-    display: inline-block; /* No inline não consigo aplicar margin-botton */
+    display: inline-block;
     margin-bottom: .8rem; 
 }
 
@@ -161,7 +161,7 @@ header {
 #transaction {
     display: block;
     width: 100%; 
-    overflow-x: auto; /* quando transborda no eixo x, ele cria, quando necessario, uma rolagem. FUNCIONA PARA MOBILE*/
+    overflow-x: auto; /* quando transborda no eixo x, ele cria, quando necessario, uma rolagem. FUNCIONA BEM PARA MOBILE*/
 
 }
 #data-table {
@@ -295,12 +295,12 @@ footer {
 /* Responsive ===================== */
 @media (min-width: 800px) {
     html {
-        font-size: 87.5%; /* ?px */ /* 14px */
+        font-size: 87.5%;
     }
 
     #balance {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* fr = fração. repeat(3, 1fr) = 1fr 1fr 1fr -> ESTUDAR! */
+        grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
     }
 }
