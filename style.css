@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-    width: min(90vw, 800px); /* ele procura o menor valor(argumento) entre os dois digitados */
+    width: min(90vw, 800px); /* ele procura o menor valor entre os dois digitados */
     margin: auto;
 }
 
@@ -162,10 +162,10 @@ header {
     display: block;
     width: 100%; 
     overflow-x: auto; /* quando transborda no eixo x, ele cria, quando necessario, uma rolagem. FUNCIONA BEM PARA MOBILE*/
-
 }
+
 #data-table {
-    width: 100%; /* pega o espaço inteiro da section (seu pai) */
+    width: 100%;
     border-spacing: 0 0.5rem;
     color: #969cb3;
 }
@@ -302,5 +302,9 @@ footer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 2rem;
+    }
+
+    .card p {
+        font-size: 1.9rem;
     }
 }
